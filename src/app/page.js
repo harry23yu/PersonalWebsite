@@ -4,7 +4,6 @@ const Index = () => {
   const socialLinks = [
     { icon: Github, href: "https://github.com/harry23yu", label: "GitHub" },
     { icon: Linkedin, href: "https://www.linkedin.com/in/harry23yu/", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:harry23yu@gmail.com", label: "Email" },
   ];
 
   return (
@@ -38,7 +37,7 @@ const Index = () => {
           </p>
           <br></br>
           <p>
-            In the past, I am thankful to gained valuable experience by working as a SWE intern at two copanies: a startup called Abby Care and at a research institution at UCSD called Qualcomm Institute. My favorite classes at OSU includes Operating Systems I, Software Engineering II, and Analysis of Algorithms. If you would like to contact me, please email me at <a href="mailto:harry23yu@gmail.com">harry23yu@gmail.com</a>.
+            In the past, I am thankful to have gained valuable experience by working as a SWE intern at two copanies: a startup called Abby Care and at a research institution at UCSD called Qualcomm Institute. My favorite classes at OSU include Operating Systems I, Software Engineering II, and Analysis of Algorithms.
           </p>
           <br></br>
           <p>
