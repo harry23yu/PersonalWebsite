@@ -34,7 +34,7 @@ const Index = () => {
         {/* Bio */}
         <section>
           <p>
-            I am a junior at Oregon State University's Honors College studying CS.
+            {"I am a junior at Oregon State University's Honors College studying CS."}
           </p>
           <br></br>
           <p>
@@ -42,7 +42,7 @@ const Index = () => {
           </p>
           <br></br>
           <p>
-            In my free time, my hobbies include watching the NBA, playing basketball, exercising, and traveling. When the craving hits, I love to go to In-N-Out Burger, Panera Bread, or Chipotle. I also enjoy playing <i>The World's Hardest Game</i> series, especially <i>WHG3</i> and <i>WHG4</i>. My current personal bests for <i>WHG3</i> and <i>WHG4</i> are <a href="https://www.youtube.com/watch?v=xddAxg-IM00" target="_blank" rel="noopener noreferrer">332</a> and <a href="https://www.youtube.com/watch?v=LcKlJjXf7gE" target="_blank" rel="noopener noreferrer">78</a> deaths, respectively. 
+            In my free time, my hobbies include watching the NBA, playing basketball, exercising, and traveling. When the craving hits, I love to go to In-N-Out Burger, Panera Bread, or Chipotle. I also enjoy playing <i>{"The World's Hardest Game"}</i> series, especially <i>WHG3</i> and <i>WHG4</i>. My current personal bests for <i>WHG3</i> and <i>WHG4</i> are <a href="https://www.youtube.com/watch?v=xddAxg-IM00" target="_blank" rel="noopener noreferrer">332</a> and <a href="https://www.youtube.com/watch?v=LcKlJjXf7gE" target="_blank" rel="noopener noreferrer">78</a> deaths, respectively. 
           </p>
         </section>
 
@@ -87,7 +87,7 @@ const Index = () => {
                 rel="noopener noreferrer"
                 className="text-primary hover:text-primary-glow transition-colors inline-flex items-center gap-1 text-lg font-medium"
               >
-                Draggin' Eggs
+                {"Draggin' Eggs"}
                 <ExternalLink className="h-4 w-4" />
               </a>
             </div>
