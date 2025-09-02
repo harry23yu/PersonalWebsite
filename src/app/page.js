@@ -1,103 +1,123 @@
-import Image from "next/image";
+import { Github, Linkedin, Mail, ExternalLink } from "lucide-react";
 
-export default function Home() {
+const Index = () => {
+  const socialLinks = [
+    { icon: Github, href: "https://github.com/harry23yu", label: "GitHub" },
+    { icon: Linkedin, href: "https://www.linkedin.com/in/harry23yu/", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:harry23yu@gmail.com", label: "Email" },
+  ];
+
   return (
-    <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="font-mono list-inside list-decimal text-sm/6 text-center sm:text-left">
-          <li className="mb-2 tracking-[-.01em]">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] font-mono font-semibold px-1 py-0.5 rounded">
-              src/app/page.js
-            </code>
-            .
-          </li>
-          <li className="tracking-[-.01em]">
-            Save and see your changes instantly.
-          </li>
-        </ol>
+    <div className="min-h-screen bg-background">
+      <div className="max-w-2xl mx-auto px-6 py-16">
+        {/* Header */}
+        <header className="mb-8">
+          <h1 className="text-4xl font-bold text-foreground mb-6">Harry Yu</h1>
+          
+          {/* Social Links */}
+          <div className="flex gap-4 mb-8">
+            {socialLinks.map((social, index) => (
+              <a
+                key={index}
+                href={social.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:text-primary-glow transition-colors"
+                aria-label={social.label}
+              >
+                <social.icon className="h-5 w-5" />
+              </a>
+            ))}
+          </div>
+        </header>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
+        {/* Bio */}
+        <section>
+          <p>
+            I am a junior at Oregon State University's Honors College studying CS.
+          </p>
+          <br></br>
+          <p>
+            In the past, I am thankful to gained valuable experience by working as a SWE intern at two copanies: a startup called Abby Care and at a research institution at UCSD called Qualcomm Institute. My favorite classes at OSU includes Operating Systems I, Software Engineering II, and Analysis of Algorithms. If you would like to contact me, please email me at <a href="mailto:harry23yu@gmail.com">harry23yu@gmail.com</a>.
+          </p>
+          <br></br>
+          <p>
+            In my free time, my hobbies include watching the NBA, playing basketball, exercising, and traveling. When the craving hits, I love to go to In-N-Out Burger, Panera Bread, or Chipotle. I also enjoy playing <i>The World's Hardest Game</i> series, especially <i>WHG3</i> and <i>WHG4</i>. My current personal bests for <i>WHG3</i> and <i>WHG4</i> are <a href="https://www.youtube.com/watch?v=xddAxg-IM00" target="_blank" rel="noopener noreferrer">332</a> and <a href="https://www.youtube.com/watch?v=LcKlJjXf7gE" target="_blank" rel="noopener noreferrer">78</a> deaths, respectively. 
+          </p>
+        </section>
+
+        <br></br>
+
+        {/* Projects */}
+        <section>
+          <h2 className="text-2xl font-semibold text-foreground mb-6">Projects</h2>
+          <div className="mb-6">
+            <div className="flex flex-wrap items-center gap-4">
+              <a 
+                href="https://www.podcasttranscriber.com/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary hover:text-primary-glow transition-colors inline-flex items-center gap-1 text-lg font-medium"
+              >
+                Podcast Transcriber
+                <ExternalLink className="h-4 w-4" />
+              </a>
+
+              <a 
+                href="https://github.com/harry23yu/PodcastTranscriber"
+                className="text-sm text-muted-foreground hover:text-foreground inline-flex items-center gap-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github className="h-4 w-4 relative top-[1px]" />
+                <span>View code</span>
+              </a>
+            </div>
+
+            <p className="text-muted-foreground text-sm mt-2 leading-relaxed">
+              Created a podcast transcription tool that uses AI to transcribe Spotify episodes into clean text, with optional ad removal and filler cleanup.
+            </p>
+          </div>
+
+          <div className="mb-6">
+            <div className="flex flex-wrap items-center gap-4">
+              <a 
+                href="https://ndtech.itch.io/draggin-eggs" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary hover:text-primary-glow transition-colors inline-flex items-center gap-1 text-lg font-medium"
+              >
+                Draggin' Eggs
+                <ExternalLink className="h-4 w-4" />
+              </a>
+            </div>
+
+            <p className="text-muted-foreground text-sm mt-2 leading-relaxed">
+              Developed an educational video game for teaching neurodiverse individuals coordination and social skills using Unity and C#.
+            </p>
+          </div>
+
+          <div className="mb-6">
+            <div className="flex flex-wrap items-center gap-4">
+              <a 
+                href="https://play.unity.com/en/games/4f178c8d-fbdf-4b82-ab06-06455809737f/the-journey-of-the-little-brown-fox" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary hover:text-primary-glow transition-colors inline-flex items-center gap-1 text-lg font-medium"
+              >
+                The Journey of the Little Brown Fox
+                <ExternalLink className="h-4 w-4" />
+              </a>
+            </div>
+
+            <p className="text-muted-foreground text-sm mt-2 leading-relaxed">
+              Built and published a 2D platformer browser game with Unity and C#. Game includes 10 levels, animations, music, moving platforms, enemies, collectables, and a boss battle. Received more than 3,000 players within two months.
+            </p>
+          </div>
+        </section>
+      </div>
     </div>
   );
-}
+};
+
+export default Index;
