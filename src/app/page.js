@@ -37,11 +37,11 @@ const Index = () => {
           </p>
           <br></br>
           <p>
-            In the past, I am thankful to have gained valuable experience by working as a SWE intern at two copanies: a startup called Abby Care and at a research institution at UCSD called Qualcomm Institute. My favorite classes at OSU include Operating Systems I, Software Engineering II, and Analysis of Algorithms.
+            I previously worked as a software engineering intern at two companies: a healthcare startup called Abby Care and the Qualcomm Institute. At Abby Care, I built full-stack features across a range of internal tooling and user-facing products, as well as developing a Python system using Zoom and Google Drive APIs to automatically fetch, upload, and delete recordings, streamlining Abby Care's video workflow. At Qualcomm Institute, I served as the lead programmer on a team that created an educational video game, Draggin’ Eggs, designed to help neurodiverse individuals develop coordination and social skills (linked under the “Projects” section).
           </p>
           <br></br>
           <p>
-            In my free time, my hobbies include watching the NBA, playing basketball, exercising, and traveling. When the craving hits, I love to go to In-N-Out Burger, Panera Bread, or Chipotle. I also enjoy playing <i>{"The World's Hardest Game"}</i> series, especially <i>WHG3</i> and <i>WHG4</i>. My current personal bests for <i>WHG3</i> and <i>WHG4</i> are <a href="https://www.youtube.com/watch?v=xddAxg-IM00" target="_blank" rel="noopener noreferrer">332</a> and <a href="https://www.youtube.com/watch?v=LcKlJjXf7gE" target="_blank" rel="noopener noreferrer">78</a> deaths, respectively. 
+            In my free time, my hobbies include watching the NBA (go LeBron!), playing basketball, exercising, and traveling. When the craving hits, I love to go to In-N-Out Burger, Panera Bread, or Chipotle. I also enjoy playing <i>{"The World's Hardest Game"}</i> series, especially <i>WHG3</i> and <i>WHG4</i>. My current personal bests for <i>WHG3</i> and <i>WHG4</i> are <a href="https://www.youtube.com/watch?v=xddAxg-IM00" target="_blank" rel="noopener noreferrer">332</a> and <a href="https://www.youtube.com/watch?v=LcKlJjXf7gE" target="_blank" rel="noopener noreferrer">78</a> deaths, respectively. 
           </p>
         </section>
 
@@ -74,7 +74,8 @@ const Index = () => {
             </div>
 
             <p className="text-muted-foreground text-sm mt-2 leading-relaxed">
-              Created a podcast transcription tool that uses AI to transcribe Spotify episodes into clean text, with optional ad removal and filler cleanup.
+              Built a podcast transcription tool that uses AssemblyAI and OpenAI’s GPT-4o-mini model to
+              transcribe Spotify episodes into clean text with optional ad removal. The tool also lets users download transcriptions as PDFs with speaker labels and optional timestamps.
             </p>
           </div>
 
