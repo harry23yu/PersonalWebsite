@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import { Github, Linkedin, Mail, ExternalLink } from "lucide-react";
 
 const Index = () => {
