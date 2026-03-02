@@ -39,11 +39,11 @@ const Index = () => {
           </p>
           <br></br>
           <p>
-            I previously worked as a software engineering intern at two companies: a healthcare startup called Abby Care and the Qualcomm Institute. At Abby Care, I built full-stack features across a range of internal tooling and user-facing products, as well as developing a Python system using Zoom and Google Drive APIs to automatically fetch, upload, and delete recordings, streamlining Abby Care's video workflow. At Qualcomm Institute, I served as the lead programmer on a team that created an educational video game, Draggin’ Eggs, designed to help neurodiverse individuals develop coordination and social skills (linked under the “Projects” section).
+            Two of my most formative engineering experiences were at Abby Care, a healthcare startup, and the Qualcomm Institute. At Abby Care, I built full-stack features across internal tooling and user-facing products and developed a Python system integrating Zoom and Google Drive APIs to automatically fetch, upload, and delete recordings, streamlining the company’s video workflow. At the Qualcomm Institute, I served as lead programmer on a team that built Draggin’ Eggs, an educational video game designed to help neurodiverse individuals develop coordination and social skills (linked under “Projects”).
           </p>
           <br></br>
           <p>
-            In my free time, my hobbies include watching the NBA (go LeBron!), playing basketball, exercising, and traveling. When the craving hits, I love to go to In-N-Out Burger, Panera Bread, or Chipotle. I also enjoy playing <i>{"The World's Hardest Game"}</i> series, especially <i>WHG3</i> and <i>WHG4</i>. My current personal bests for <i>WHG3</i> and <i>WHG4</i> are <a href="https://www.youtube.com/watch?v=xddAxg-IM00" target="_blank" rel="noopener noreferrer">332</a> and <a href="https://www.youtube.com/watch?v=LcKlJjXf7gE" target="_blank" rel="noopener noreferrer">78</a> deaths, respectively. 
+            In my free time, my hobbies include watching the NBA (go LeBron!), exercising, traveling, and learning new AI tools. When the craving hits, I love to go to In-N-Out Burger, Panera Bread, or Chipotle. I also enjoy playing <i>{"The World's Hardest Game"}</i> series, especially <i>WHG3</i> and <i>WHG4</i>. My current personal bests for <i>WHG3</i> and <i>WHG4</i> are <a href="https://www.youtube.com/watch?v=xddAxg-IM00" target="_blank" rel="noopener noreferrer">332</a> and <a href="https://www.youtube.com/watch?v=LcKlJjXf7gE" target="_blank" rel="noopener noreferrer">78</a> deaths, respectively. 
           </p>
         </section>
 
@@ -54,8 +54,55 @@ const Index = () => {
           <h2 className="text-2xl font-semibold text-foreground mb-6">Projects</h2>
           <div className="mb-6">
             <div className="flex flex-wrap items-center gap-4">
-              <a 
-                href="https://www.podcasttranscriber.com/" 
+              <a
+                href="https://autikit.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:text-primary-glow transition-colors inline-flex items-center gap-1 text-lg font-medium"
+              >
+                AutiKit
+                <ExternalLink className="h-4 w-4" />
+              </a>
+
+              <a
+                href="https://github.com/harry23yu/autikit"
+                className="text-sm text-muted-foreground hover:text-foreground inline-flex items-center gap-1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Github className="h-4 w-4 relative top-[1px]" />
+                <span>View code</span>
+              </a>
+            </div>
+
+            <p className="text-muted-foreground text-sm mt-2 leading-relaxed">
+              Placed 6th out of 125 hackers at Anthropic's Claude Code Portland hackathon by building AutiKit, an interactive coach for autistic individuals to manage sensory, communication, and task-initiation challenges
+            </p>
+          </div>
+
+          <div className="mb-6">
+            <div className="flex flex-wrap items-center gap-4">
+              <a
+                href="https://github.com/harry23yu/ai_trip_itinerary_generator"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:text-primary-glow transition-colors inline-flex items-center gap-1 text-lg font-medium"
+              >
+                AI Trip Itinerary Generator
+                <ExternalLink className="h-4 w-4" />
+              </a>
+
+            </div>
+            
+            <p className="text-muted-foreground text-sm mt-2 leading-relaxed">
+              Designed and built a FastAPI backend that converts user constraints into validated multi-day itineraries using LLM-generated JSON and schema enforcement. Implemented automated PDF export with timestamped filenames and a constraint-first question system to reduce hallucinations. Frontend in progress.
+            </p>
+          </div>
+
+          <div className="mb-6">
+            <div className="flex flex-wrap items-center gap-4">
+              <a
+                href="https://www.podcasttranscriber.com/"
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-primary hover:text-primary-glow transition-colors inline-flex items-center gap-1 text-lg font-medium"
