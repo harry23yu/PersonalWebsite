@@ -13,7 +13,7 @@ const Index = () => {
           <div className="flex-1">
             <h1 className="text-3xl font-bold mb-2">Harry Yu</h1>
             <p className="font-mono text-sm text-gray-500 mb-1">
-              CS Student &amp; Software Engineering Intern
+              CS Student &amp; Aspiring Software Engineer
             </p>
             <p className="font-mono text-sm text-gray-400 flex items-center gap-1 mb-4">
               <MapPin className="h-3 w-3" />
@@ -48,7 +48,7 @@ const Index = () => {
             </div>
           </div>
           <Image
-            src="/linkedin.png"
+            src="/LinkedIn.png"
             alt="Harry Yu"
             width={96}
             height={96}
