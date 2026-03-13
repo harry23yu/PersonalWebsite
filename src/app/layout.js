@@ -15,8 +15,8 @@ export const metadata = {
   title: "Harry Yu",
   description: "Personal website of Harry Yu, CS student at Oregon State University.",
   icons: {
-    icon: "/LinkedIn.png",
-    apple: "/LinkedIn.png",
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
   },
 };
 
