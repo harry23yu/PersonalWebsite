@@ -116,7 +116,7 @@ const Index = () => {
             <div>
               <div className="flex justify-between items-baseline">
                 <span className="font-bold">License Journey</span>
-                <span className="font-mono text-sm text-gray-400">Summer–Fall 2025</span>
+                <span className="font-mono text-sm text-gray-400">Jun 2025 - Nov 2025</span>
               </div>
               <p className="font-mono text-sm text-gray-500">Software Engineering Intern</p>
             </div>
@@ -124,7 +124,7 @@ const Index = () => {
             <div>
               <div className="flex justify-between items-baseline">
                 <span className="font-bold">Abby Care</span>
-                <span className="font-mono text-sm text-gray-400">Fall 2024–Spring 2025</span>
+                <span className="font-mono text-sm text-gray-400">Nov 2024 - Mar 2025</span>
               </div>
               <p className="font-mono text-sm text-gray-500">Software Engineering Intern</p>
             </div>
@@ -132,7 +132,7 @@ const Index = () => {
             <div>
               <div className="flex justify-between items-baseline">
                 <span className="font-bold">Qualcomm Institute</span>
-                <span className="font-mono text-sm text-gray-400">Summer 2024</span>
+                <span className="font-mono text-sm text-gray-400">Jun 2024 - Aug 2024</span>
               </div>
               <p className="font-mono text-sm text-gray-500">Software Engineering Intern</p>
             </div>
@@ -140,7 +140,7 @@ const Index = () => {
             <div>
               <div className="flex justify-between items-baseline">
                 <span className="font-bold">Turmerik</span>
-                <span className="font-mono text-sm text-gray-400">Spring 2024</span>
+                <span className="font-mono text-sm text-gray-400">Mar 2024 - Jun 2024</span>
               </div>
               <p className="font-mono text-sm text-gray-500">Data Engineering Intern</p>
             </div>
@@ -148,7 +148,7 @@ const Index = () => {
             <div>
               <div className="flex justify-between items-baseline">
                 <span className="font-bold">URSA Engage, Oregon State University</span>
-                <span className="font-mono text-sm text-gray-400">Winter–Fall 2024</span>
+                <span className="font-mono text-sm text-gray-400">Jan 2024 - Oct 2024</span>
               </div>
               <p className="font-mono text-sm text-gray-500">Computer Science Researcher</p>
             </div>
@@ -171,7 +171,7 @@ const Index = () => {
                 >
                   AutiKit
                 </a>
-                <span className="font-mono text-sm text-gray-400">Winter 2026</span>
+                <span className="font-mono text-sm text-gray-400">Feb 2026</span>
               </div>
               <p className="font-mono text-sm text-gray-400 mb-1">
                 <a href="https://github.com/harry23yu/autikit" target="_blank" rel="noopener noreferrer" className="hover:underline">GitHub</a>
@@ -191,7 +191,7 @@ const Index = () => {
                 >
                   AI Trip Itinerary Generator
                 </a>
-                <span className="font-mono text-sm text-gray-400">Winter 2026</span>
+                <span className="font-mono text-sm text-gray-400">Jan 2026 - Feb 2026</span>
               </div>
               <p className="font-mono text-sm text-gray-400 mb-1">
                 <a href="https://github.com/harry23yu/ai_trip_itinerary_generator" target="_blank" rel="noopener noreferrer" className="hover:underline">GitHub</a>
@@ -211,7 +211,7 @@ const Index = () => {
                 >
                   Podcast Transcriber
                 </a>
-                <span className="font-mono text-sm text-gray-400">Summer 2025</span>
+                <span className="font-mono text-sm text-gray-400">Aug 2025</span>
               </div>
               <p className="font-mono text-sm text-gray-400 mb-1">
                 <a href="https://github.com/harry23yu/PodcastTranscriber" target="_blank" rel="noopener noreferrer" className="hover:underline">GitHub</a>
@@ -231,7 +231,7 @@ const Index = () => {
                 >
                   Draggin' Eggs
                 </a>
-                <span className="font-mono text-sm text-gray-400">Summer 2024</span>
+                <span className="font-mono text-sm text-gray-400">Jun 2024 - Aug 2024</span>
               </div>
               <p className="font-mono text-sm text-gray-600">
                 Using Unity and C#, developed an educational video game at the Qualcomm Institute designed to help neurodiverse individuals build coordination and social skills.
@@ -248,7 +248,7 @@ const Index = () => {
                 >
                   The Journey of the Little Brown Fox
                 </a>
-                <span className="font-mono text-sm text-gray-400">Summer–Fall 2021</span>
+                <span className="font-mono text-sm text-gray-400">Jul 2021 - Sep 2021</span>
               </div>
               <p className="font-mono text-sm text-gray-600">
                 Built and published a 2D platformer browser game with Unity and C#. Game includes 10 levels, animations, music, moving platforms, enemies, collectables, and a boss battle. Received more than 3,000 players within two months.
