@@ -60,19 +60,10 @@ const Index = () => {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-3">About</h2>
           <p className="font-mono text-sm text-gray-600 leading-relaxed mb-3">
-            I am a junior at Oregon State University's Honors College studying Computer Science.
-            Two of my most formative engineering experiences were at Abby Care, a healthcare startup,
-            and the Qualcomm Institute. At Abby Care, I built full-stack features across internal
-            tooling and user-facing products, and developed a Python system integrating Zoom and
-            Google Drive APIs to automatically fetch, upload, and delete recordings, streamlining
-            the company's video workflow. At the Qualcomm Institute, I served as lead programmer on
-            a team that built Draggin' Eggs, an educational video game designed to help neurodiverse
-            individuals develop coordination and social skills.
+            I am currently a full-stack developer intern at VetsEZ and an incoming senior at Oregon State University's Honors College studying Computer Science. In the past, two of my most formative engineering experiences were at Abby Care, a healthcare startup, and the Qualcomm Institute. At Abby Care, I built full-stack features across internal tooling and user-facing products, and developed a Python system integrating Zoom and Google Drive APIs to automatically fetch, upload, and delete recordings, streamlining the company's video workflow. At the Qualcomm Institute, I served as lead programmer on a team that built Draggin' Eggs, an educational video game designed to help neurodiverse individuals develop coordination and social skills.
           </p>
           <p className="font-mono text-sm text-gray-600 leading-relaxed">
-            In my free time, my hobbies include watching the NBA (go LeBron!), exercising,
-            traveling, and learning new AI tools. I also enjoy playing <em>The World's Hardest Game</em> series
-            — my personal bests for WHG3 and WHG4 are{" "}
+            In my free time, my hobbies include watching the NBA (go LeBron!), exercising, traveling, and learning new AI tools. I also enjoy playing <em>The World's Hardest Game</em> series — my personal bests for WHG3 and WHG4 are{" "}
             <a
               href="https://www.youtube.com/watch?v=xddAxg-IM00"
               target="_blank"
@@ -112,6 +103,14 @@ const Index = () => {
         <section className="mb-10">
           <h2 className="text-xl font-bold mb-3">Work Experience</h2>
           <div className="space-y-5">
+
+            <div>
+              <div className="flex justify-between items-baseline">
+                <span className="font-bold">VetsEZ</span>
+                <span className="font-mono text-sm text-gray-400">Jun 2026 - Present</span>
+              </div>
+              <p className="font-mono text-sm text-gray-500">Full-Stack Developer Intern</p>
+            </div>
 
             <div>
               <div className="flex justify-between items-baseline">
